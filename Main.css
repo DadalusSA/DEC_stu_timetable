@@ -1,0 +1,214 @@
+﻿#fixedtop
+{
+    position:fixed;
+    top:0;
+    left:0;
+    float:left;
+    width:100%;
+   height:50px;
+   background-color:gray;
+   display:block;
+   background:linear-gradient(#00ccff, #006bb3)
+  
+}
+
+#msulogo
+{
+
+     background-image:url(msulogo.png);
+     background-size:200px 53px;
+     background-repeat:no-repeat;
+     float:left;
+     width:200px;
+     height:60px;
+}
+
+#popup
+{
+    font-size:15px;
+    height:40px;
+    margin-top:4px;
+    margin-left:5px;
+    border:1px solid #cccccc;
+    border-radius:30%;
+    cursor:pointer;
+    outline:none;
+    outline-color:red;
+}
+
+.findus
+{
+    margin-top:80px;
+    margin-left:170px;
+    width:380px;
+    font-size:20px;
+}
+
+#loginadmin
+{
+    
+    position:absolute;
+    right:-10px;
+    top:-10px;
+    width:20px;
+    height:20px;
+    cursor:pointer;
+}
+#popup_login_admin
+{
+   position:absolute;
+   top:0;
+   left:0;
+   width:100%;
+   height:100%;
+   opacity:.99;
+   display:none;
+   background-color:#303030;
+   overflow:auto;
+}
+
+
+
+
+#formadminlogin{
+    max-width:300px;
+    min-width:250px;
+    border: 2px solid gray;
+    padding:12px 50px;
+    border-radius:10px;
+    background-color:whitesmoke;
+    background:lightblue;
+
+}
+
+#popupcontent
+{
+    position:fixed;
+    left:50%;
+    top:28%;
+    margin-left:-210px;
+}
+
+h3
+{
+    background:linear-gradient(lightblue,cornflowerblue);
+ padding:20px 35px;
+ margin:-12px -50px;
+ border-radius: 10px 10px 0px 0px;
+ text-align:center;
+}
+ hr
+{
+     margin:12px -50px;
+     border:0;
+     border-top:1px solid #cccccc;
+}
+
+ input[type=text],input[type=password]
+{
+     width:80%;
+     padding:10px;
+     margin-top:10px;
+     border:1px solid #cccccc;
+     padding-left:40px;
+     font-size:15px;
+     font-family:'Times New Roman';
+}
+
+
+ input[type=text]:hover, input[type=password]:hover
+ {
+     color: darkgoldenrod;
+ }
+
+  input[type=text]:focus, input[type=password]:focus
+  {
+      border-color:red;
+      outline:none;
+  }
+
+ #adminname, #stulogin
+ {
+     background-image:url(usericon.png);
+     background-repeat:no-repeat;
+     background-position:8px 8px;
+     background-size:20px;
+     border-radius:7px;
+ }
+  #adminpass, #stupass
+ {
+     background-image:url(passwordicon.png);
+     background-repeat:no-repeat;
+     background-position:8px 8px;
+     background-size:20px;
+     border-radius:7px;
+ }
+
+#submitbtn
+{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom:9px;
+    left:7px;
+    cursor:pointer;
+    outline:none;
+   
+}
+
+.submit 
+{
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 82px;
+    right: 25px;
+    padding: 10px;
+    z-index: 2;
+    background:lightblue;
+    border-radius: 50%;
+   
+    
+}
+#stuportal
+{
+    position:absolute;
+    top:50px;
+    left:0;
+    float:left;
+    width:100%;
+   height:70px;
+   display:block;
+   background:linear-gradient(black,#808080) no-repeat;
+}
+
+.stuportal 
+{
+    float: right;
+    margin-top:8px;
+    margin-right:50px;
+    font-size: 45px;
+    color: whitesmoke;
+    font-family: 'Times New Roman';
+    font-style: italic;
+    font-weight: 300 bold;
+}
+.stuinfo
+{
+    margin-top:150px;
+    margin-left:170px;
+    width:380px;
+    font-size:20px;
+}
+
+
+
+#bottomdesign {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: lightblue;
+    height: 140px;
+    background: transparent url(footer-bg04.png) no-repeat;
+    bottom: 0;
+}

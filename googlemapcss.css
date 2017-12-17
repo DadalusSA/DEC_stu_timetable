@@ -1,0 +1,52 @@
+﻿body
+{
+    background:url(wallpaper.jpg);
+}
+.top
+{
+    background:linear-gradient(rgba(138, 147, 145, 0.59),#808080) no-repeat;
+    width:100%;
+    height:90px;
+}
+
+.center
+{
+        font-size:30px;
+        font-weight:200 bold;
+}
+
+.pagecolor
+{
+    opacity:0.88;
+    background-color:Highlight;
+    margin:12px 145px 0px 145px;
+    border-radius:10px;
+}
+
+.Page
+{
+    margin:10px 12px 12px 12px;
+    color:blue;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:200 bold;
+}
+
+a 
+{
+    color:blue;
+    text-decoration:none;
+}
+.btnshow
+{
+    background-color:transparent;
+    color:white;
+    font-size:15px;
+    border:1px solid gray;
+    cursor:pointer;
+
+}
+
+.hideshow p
+{
+    display:none;
+}

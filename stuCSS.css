@@ -1,0 +1,200 @@
+﻿
+ input[type=text],input[type=password]
+{
+     width:80%;
+     padding:10px;
+     margin-top:10px;
+     border:1px solid #cccccc;
+     padding-left:40px;
+     font-size:15px;
+     font-family:'Times New Roman';
+}
+
+
+
+ input[type=text]:hover, input[type=password]:hover
+ {
+     color: darkgoldenrod;
+ }
+
+  input[type=text]:focus, input[type=password]:focus
+  {
+      border-color:red;
+      outline:none;
+  }
+
+  #stulogin
+ {
+     background-image:url(usericon.png);
+     background-repeat:no-repeat;
+     background-position:8px 8px;
+     background-size:20px;
+     border-radius:7px;
+ }
+   #stupass, .imgtb
+ {
+     background-image:url(passwordicon.png);
+     background-repeat:no-repeat;
+     background-position:8px 8px;
+     background-size:20px;
+     border-radius:7px;
+ }
+
+
+   #logindiv
+{
+    margin-top:5px;
+ padding:20px 0 20px 20px;
+ margin-right:150px;
+ width:420px;
+ float:right;
+ background-color:#e5e5e5;
+ border-radius:20px;
+ border:none;
+ 
+
+}
+
+ #stusubmitbtn
+ {
+     width:130px;
+     float:right;
+     margin-right:30px;
+     height:60px;
+     outline:none;
+ }
+
+ #TopDiv
+ {
+    position:relative;
+    top:15%;
+    left:0;
+    width:100%;
+    float:right;
+    margin-top:83px;
+   height:50px;
+   display:block;
+  border: 1px double #c2bc1f;
+  border-top-left-radius:10px;
+  border-bottom-left-radius:8px;
+  border-bottom-right-radius:8px;
+  border-top-right-radius:10px;
+   background:linear-gradient(#00ccff, #006bb3)
+ }
+
+ #HomeBtn
+ {
+     outline:none;
+    margin-top:3px;
+ }
+
+ #GetStuInfo
+ {
+     margin-top:15px;
+     float:right;
+     margin-right:10px;
+     color:darkred;
+     position:center;
+ }
+
+ #Category
+ {
+     cursor:pointer;
+     outline:none;
+     margin-top:12px;
+     margin-right:3px;
+     border:none;
+     background:none;
+ }
+ .headerlogo
+ {
+     width:100%;
+     background:radial-gradient(#cccccc,rgba(255, 62, 0, 0.88)) no-repeat;
+     height:130px;
+     left:0;
+     position:absolute;
+     top:0;
+     border-bottom-left-radius:40px;
+     border-bottom-right-radius:40px;
+ }
+.headerlogo .stupor
+ {
+    float:left;
+     font-size:45px;
+     margin-left:10px;
+     text-shadow:24px 25px 4px darkgoldenrod;
+     font-weight:300;
+     font-family:'Times New Roman';
+     font-style:italic;
+ }
+#ptpllogo
+{
+
+     background-image:url(PTPL_Logo.png);
+     margin-top:5px;
+     margin-left:65px;
+     background-size:180px 40px;
+     background-repeat:no-repeat;
+     float:left;
+     margin-right:20px;
+     width:180px;
+     height:45px;
+}
+
+#msulogo
+{
+
+     background-image:url(msulogo.png);
+     background-size:200px 53px;
+     background-repeat:no-repeat;
+     float:left;
+     width:200px;
+     height:60px;
+}
+
+#pngforbeauty
+{
+     background-image:url(pngggggright.png);
+     background-size:900px 70px;
+     background-position:right;
+     background-repeat:no-repeat;
+     float:left;
+     width:100%;
+     position:absolute;
+     opacity:0.2;
+     height:70px;
+}
+ .catdropdown {
+            position: relative;
+            display: inline-block;
+            float:right;
+            left:0;
+        }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #006bb3;
+    min-width: 150px;
+    right:0;
+}
+
+    .dropdown-content a {
+        color: yellow;
+        padding: 5px 6px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-content a:active
+            {
+                background-color:blue;
+            }
+
+    .dropdown-content a:hover {
+                    background-color: darkgray;
+                }
+
+    .catdropdown:hover .dropdown-content {
+            display: block;
+        }
